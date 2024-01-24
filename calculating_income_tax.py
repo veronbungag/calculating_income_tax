@@ -23,4 +23,6 @@ def calculate_income_tax(income):
     return taxable_income
 
 #add income value and calculate income tax
+income = 45000
+taxable_income = calculate_income_tax(income)
 #print the income tax payable
