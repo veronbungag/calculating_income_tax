@@ -1,6 +1,7 @@
 #define a function for calculating income tax
 def calculate_income_tax(income):
-#add taxable income as 0
+    #add taxable income as 0
+    taxable_income = 0
 #if income is less than or equal 10000
 #0% tax rate on first 10,000
 #10% tax rate 
