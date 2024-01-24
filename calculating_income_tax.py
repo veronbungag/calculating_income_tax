@@ -14,11 +14,13 @@ def calculate_income_tax(income):
     #first 10,000
         taxable_income = 0
         
-#next 10,000 10% tax
-taxable_income = 10000 * 10 / 100
+    #next 10,000 10% tax
+    taxable_income = 10000 * 10 / 100
 
-#remaining 20% tax rate
-taxable_income += (income - 20000) * 20 / 100 
-#return taxable income
+    #remaining 20% tax rate
+    taxable_income += (income - 20000) * 20 / 100 
+    #return taxable income
+    return taxable_income
+
 #add income value and calculate income tax
 #print the income tax payable
