@@ -26,3 +26,4 @@ def calculate_income_tax(income):
 income = 45000
 taxable_income = calculate_income_tax(income)
 #print the income tax payable
+print("The income tax payable is: ", taxable_income)
