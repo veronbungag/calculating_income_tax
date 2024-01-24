@@ -10,7 +10,9 @@ def calculate_income_tax(income):
         tax = income - 10000
         #10% tax rate 
         taxable_income = tax * 10 / 100
-#first 10,000
+    else:
+    #first 10,000
+        taxable_income = 0
 #next 10,000 10% tax
 #remaining 20% tax rate
 #return taxable income
