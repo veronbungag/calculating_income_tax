@@ -6,8 +6,10 @@ def calculate_income_tax(income):
     if income <= 10000:
         taxable_income = 0
     elif income <= 20000:
-#0% tax rate on first 10,000
-#10% tax rate 
+        #0% tax rate on first 10,000
+        tax = income - 10000
+        #10% tax rate 
+        taxable_income = tax * 10 / 100
 #first 10,000
 #next 10,000 10% tax
 #remaining 20% tax rate
